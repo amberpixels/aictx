@@ -1,27 +1,32 @@
-# aictx
+<h1 align="center">
+    AI Ctx
+</h1>
 
-**aictx** is a command-line tool that generates a concatenated contents of source files and/or tree view of a directory.
-It supports both local directories and remote Git repositories, applying flexible filtering rules—including global
-and mode-specific include/exclude patterns — to determine which files to display.
+🤖 **aictx** is a powerful CLI tool that transforms your entire codebase into a single, AI-ready text file.
+Perfect for feeding context to large language models like ChatGPT, Claude, and more, it supports both local directories and remote Git repositories.
+With flexible filtering options—including global and mode-specific include/exclude patterns—you control exactly which files are included,
+creating a seamless narrative of your project.
 
 ## Features
 
 - **📁 Local Directory Support**:
-  Processes a local directory and its subdirectories, including hidden files and directories.
+  Processes given local directory and its subdirectories (if needed, including hidden content as well).
 
 - **🌐 Git Repository Support**:
-  Accepts a Git repository shorthand (e.g., `github.com/amberpixels/aictx`) to clone the repository into memory and process its contents.
+  Accepts a Git repository shorthand (e.g., `github.com/amberpixels/aictx`) to process its codebase.
 
 - **🗃️ Tree Mode**:
   Displays a structured tree view of the input with a summary (total file count, cumulative size, and largest file size).
 
 - **📜 Source Mode**:
-  Outputs the contents of allowed source files with informative headers including file number and size. Files exceeding a configurable size threshold are skipped.
+  Outputs the contents of allowed source files with informative headers including file number and size.
+  Files exceeding a configurable size threshold are skipped.
 
 - **🛠️ Flexible Filtering**:
   - Apply global and mode-specific glob patterns (supports comma-separated lists) to include or exclude files.
-  - Automatically ignores common unwanted files (e.g., `Thumbs.db`, `__pycache__`, `node_modules`) with an option to disable these built-in rules.
-  - Automatically ignores hidden and/or binary files.
+  - Automatically respects `.gitignore` if exists (can be disabled).
+  - Automatically ignores common unwanted files (e.g., `vendor`, `Thumbs.db`, `__pycache__`, `node_modules`) (can be disabled).
+  - Automatically ignores hidden and/or binary files (can be disabled).
   - Reads additional ignore patterns from a `.aictxignore` file in the input directory.
   - Automatically excludes the output file (default `output.txt` or a user-specified file) from processing.
 
@@ -146,4 +151,4 @@ the project's quality and reliability.
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
-Happy coding!
+Happy coding! :heart:
