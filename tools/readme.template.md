@@ -35,41 +35,7 @@ go install github.com/amberpixels/aictx@latest
 ## Usage and Options
 
 ```bash
-Usage: aictx [<input-path>] [flags]
-
-Arguments:
-  [<input-path>]    Input directory (or git repo URL) to process
-
-Flags:
-  -h, --help                    Show context-sensitive help.
-  -l, --local                   Treat inputPath arg as a local directory.
-                                If inputPath is '.' it is automatically makes
-                                local=true.
-  -i, --include=""              Global include glob pattern (supports
-                                comma-separated list)
-  -x, --exclude=""              Global exclude glob pattern (supports
-                                comma-separated list)
-      --source.disabled         Disable source mode
-      --source.include=""       Include glob pattern specific for source mode.
-                                Global include is used if not specified.
-      --source.exclude=""       Exclude glob pattern specific for source mode.
-                                Global exclude is used if not specified.
-      --source.threshold=0.1    Exclude sources for files >= threshold (Mb)
-      --source.show-hidden      Show hidden files in source mode
-      --tree.disabled           Disable tree mode
-      --tree.include=""         Include glob pattern specific for tree mode.
-                                Global include is used if not specified.
-      --tree.exclude=""         Exclude glob pattern specific for tree mode.
-                                Global exclude is used if not specified.
-      --tree.show-hidden        Show hidden files in tree mode
-  -o, --out="output.txt"        Output destination file ("stdout" for stdout)
-  -v, --verbose                 Verbose mode
-  -r, --raw                     Concatenate file contents in raw mode without
-                                headers or summary
-  -L, --list-core-ignores       List core ignore patterns and exit
-      --no-core-ignores         Disable core ignore patterns
-      --no-git-ignore           Disable respecting .gitignore file
-
+{{ .Usage }}
 ```
 
 ## Examples
