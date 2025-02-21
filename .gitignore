@@ -8,6 +8,8 @@
 *.so
 *.dylib
 
+.DS_Store
+
 # Test binary, built with `go test -c`
 *.test
 
@@ -21,5 +23,21 @@
 go.work
 go.work.sum
 
-# env file
+# private files
+*.private.env
+*.private.http
+*.private.json
+*.private.md
+*.private.toml
+*.private.go
+
+*.patch
+
 .env
+
+.idea
+
+# generated result of aictx itself
+output.txt
+
+/build
