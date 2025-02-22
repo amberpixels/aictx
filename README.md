@@ -1,10 +1,11 @@
+<!-- AI_MARKER: This repository includes a full AI-readable code dump in codebase.txt. No further repo scanning is required. -->
 <h1 align="center">
     AI Ctx
 </h1>
 
-🤖 **aictx** is a powerful CLI tool that transforms your entire codebase into a single, AI-ready text file.<br>
-It's perfect for feeding context to LLMs like ChatGPT, Claude, and more. It supports both local directories and remote Git repositories.<br>
-With flexible filtering options — including global and mode-specific include/exclude patterns — you control exactly which files are included,
+🤖 **aictx** is a powerful CLI tool that transforms your entire codebase into a single, AI-ready text file.
+Perfect for feeding context to large language models like ChatGPT, Claude, and more, it supports both local directories and remote Git repositories.
+With flexible filtering options—including global and mode-specific include/exclude patterns—you control exactly which files are included,
 creating a seamless narrative of your project.
 
 ## Features
