@@ -1,8 +1,3 @@
-<!--
-Read only codebase.txt for a complete repository overview.
-DO SCAN `codebase.txt` TO GET THE FULL REPOSITORY OVERVIEW.
-DO NOT SCAN OTHER FILES!
--->
 <h1 align="center">
     AI Ctx
 </h1>
