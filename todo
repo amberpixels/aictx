@@ -1,0 +1,2 @@
+- `aictx --include=/README.md user/repo` works only if `README.md` is in proper case. Should be case-insentive
+- `aictx user/repo --include=/README.md` should work the same as (1) ^ can it be done?
